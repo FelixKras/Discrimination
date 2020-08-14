@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeImagesForDiscrimination", "MakeImagesForDescrimination\MakeImagesForDiscrimination.csproj", "{9C21111B-423F-41AA-879B-945D6A474CBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concaveman", "concaveman\concaveman.vcxproj", "{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|x64.Build.0 = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Debug|x86.Build.0 = Debug|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|x64.Build.0 = Release|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|x86.ActiveCfg = Release|Any CPU
+		{9C21111B-423F-41AA-879B-945D6A474CBE}.Release|x86.Build.0 = Release|Any CPU
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Debug|x64.ActiveCfg = Debug|x64
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Debug|x64.Build.0 = Debug|x64
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Debug|x86.Build.0 = Debug|Win32
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Release|Any CPU.ActiveCfg = Release|Win32
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Release|x64.ActiveCfg = Release|x64
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Release|x64.Build.0 = Release|x64
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Release|x86.ActiveCfg = Release|Win32
+		{042B3DD2-94F0-427D-8BE9-2DD0EF4248B1}.Release|x86.Build.0 = Release|Win32
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Debug|x86.Build.0 = Debug|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|x64.Build.0 = Release|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{DFFA46AF-0ACD-4C8F-9767-29B723905DDF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37E77074-C093-4F96-A025-995A44941B58}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mlmtfsapp:8080/tfs/ag
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MakeImagesForDescrimination\\MakeImagesForDiscrimination.csproj
+		SccProjectName1 = MakeImagesForDescrimination
+		SccLocalPath1 = MakeImagesForDescrimination
+		SccProjectUniqueName2 = concaveman\\concaveman.vcxproj
+		SccProjectName2 = concaveman
+		SccLocalPath2 = concaveman
+		SccProjectUniqueName3 = UnitTests\\UnitTests.csproj
+		SccProjectName3 = UnitTests
+		SccLocalPath3 = UnitTests
+	EndGlobalSection
+EndGlobal

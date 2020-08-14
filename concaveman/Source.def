@@ -1,0 +1,3 @@
+LIBRARY concaveman
+EXPORTS
+pyconcaveman2d @1
